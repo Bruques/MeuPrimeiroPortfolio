@@ -7,12 +7,8 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(
-  `#home .image, #home .text,
-  #about .image, #about .text,
-  #services header, #services .card,
-  #testimonials header, #testimonials .testimonials
-  #contact .text, #contact .links,
-  footer .brand, footer .social
+  `#welcome-section .welcome-section, #projects .projects-section,
+  #projects .projects-grid, #contact .contact-section
   `,
   { interval: 100 }
 )
